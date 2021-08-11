@@ -1,0 +1,666 @@
+@charset "utf-8";
+
+
+/*************** DEFAULT CSS ***************/
+body{
+	background-color: rgb(38, 38, 122);
+ 	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight:400;
+	color: #ffffff;
+	text-decoration: none;
+	margin:0px;
+	-webkit-font-smoothing: antialiased;
+	padding:0;
+	
+}
+html{ scroll-behavior: smooth;}
+* {
+    -webkit-box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #fff; /* Safari */
+	color:#000;
+        }
+::-moz-selection {
+    background: #fff; /* Firefox */
+	color:#000;
+}
+a {
+	color:#20C7F5;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	}
+	a:hover {
+	color: #103FA8;
+    }
+p {
+	margin:0 0 30px 0;
+	clear:left;
+	padding:0;
+	}
+h1, h2, h3, h4, h5, h6 {
+	margin:0 0 20px 0;
+	padding:0;
+	font-weight:normal;
+	}	
+hr {
+	margin:40px  0 60px 0;
+	height:1px;
+	border:0;
+	border-top:1px solid #c1c1c1;
+	border-bottom:1px solid #c1c1c1;
+	float:left;
+	width:100%;
+	position:relative;
+}
+img{
+	border:0;
+}	
+a img {
+	border: 0;
+	}
+
+
+
+/*************** COLUMS AND ROWS ***************/
+main{
+    position:relative;
+	}
+row{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0 0 30px 0;
+	padding:0;
+}
+clearfix{
+	width:100%;
+	height:100px;
+	float:left;
+	margin:0;
+	padding:0;
+	display:block;
+}
+.container{
+	width:1180px;
+	margin:0 auto;
+}
+.fullwidth{
+	width:100%;
+	display:block;
+}
+clearfix{
+	width:100%;
+	height:100px;
+	float:left;
+	margin:0;
+	padding:0;
+	display:block;
+}
+.two-col{
+	width: 46%;
+    float: left;
+    margin-right: 8%;
+}
+.three-col{
+	width:30%;
+	float:left;
+	margin-right:5%;
+}
+.four-col{
+	width:22%;
+	float:left;
+	margin-right:4%;
+}
+.last{
+	margin-right:0;
+}
+section {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+aside {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+summary {
+    width: 70%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+/*************** HOME PAGE CSS ***************/
+.logo{
+	float: left;
+	padding: 10px 0px;
+}
+
+.menu{
+	margin-top: 20px;
+	float: right;
+}
+header{
+	background-color: white;
+	float: left;
+	width: 100%;
+}
+.divprincipalmessagesec{
+	padding: 80px 0;
+}
+.divprincipalmessage{
+	background-color: #103FA8;
+	color: white;
+	width: 100%;
+	border: 2px solid white;
+	display: flex;
+	flex-direction: row;
+	font-weight: 600;
+	line-height: 20px;
+}
+.messageheading{
+	font-family: 'Cairo', sans-serif;
+	margin-left: 170px;
+}
+.message{
+	background-image: linear-gradient(#003365d9,#003365d9), url("../images/image2.jpg");
+	padding-left: 10px;
+}
+.magdownloads{
+	display: flex;
+	flex-direction: row;
+	
+}
+.magdownload{
+	border:2px solid white;
+	border-radius: 20px;
+	text-align: center;
+	height: 260px;
+	width: 48%;
+	margin: 10px 2%;
+	padding-top: 20px;
+	float: left;
+	padding: 30px;
+}
+.magdownload h2{
+	margin: 0 0 25px;
+}
+.downloadbuttons{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.secdivnotice{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(38, 38, 122);
+	padding: 60px 0;
+}
+.divnotice{
+	min-height: 500px;
+	width: 30%;
+	margin: 10px 1%;
+	border:2px solid white;
+	border-radius: 20px;
+	text-align: center;
+	padding: 30px;
+	float: left;
+}
+.downloadbuttons2{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	margin-top: 30px;
+}
+.downloadbuttons3{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.footerdiv{
+	display: flex;
+	flex-direction: row;
+}
+
+footer{
+	padding: 80px 0 0;
+	border-top: 3px solid white;
+	background-color: rgb(3, 3, 70);
+	width: 100%;
+	float: left;
+}
+
+/**********About Page CSS**************/
+
+.headerpic{
+	height: 300px;
+	width: 100%;
+	background-image: url("../images/inner-banner-benches.jpg") ;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+.headerpic h2{
+	margin-top: 150px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 47px;
+	text-transform: uppercase;
+}
+.historysec{
+	padding: 80px 0;
+}
+.historycontent{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+.heading{
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	padding-bottom: 20px;
+}
+.heading::after{
+	position: absolute;
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	width: 100px;
+	height: 2px;
+	background-color: darkorange;
+}
+.historypic{
+	float: left;
+	width: 48%;
+}
+.img-responsive{
+	width: 100%;
+}
+.historycontent p{
+	font-size: 20px;
+	line-height: 30px;
+}
+.secabout2{
+	background-image: url("../images/secaboutpic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 80px 0;
+}
+.divabout2pic{
+	float: left;
+	width: 30%;
+}
+.divabout2content{
+	float: left;
+	width: 70%;
+	padding-left: 30px;
+}
+.subheading{
+	font-size: 30px;
+}
+.headings{
+	font-size: 40px;
+}
+.headingdiv{
+	float: left;
+	margin-top: 90px;
+}
+/****************Academic page CSS****************/
+
+.academicsec{
+	display: flex;
+	padding: 80px 0;
+
+}
+.academicsec h2{
+	color: rgb(194, 0, 0);
+	font-weight: bold;
+}
+.JR-college-select{
+	background-image: url("../images/secaboutpic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 2%;
+	height: 200px;
+	width: 32%;
+	padding-top: 40px;
+	padding-left: 40px;
+	float: left;
+}
+.JR-college-select1{
+	background-image: url("../images/secaboutpic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 32%;
+	padding-top: 40px;
+	padding-left: 40px;
+	float: left;
+}
+
+/*************** Our Management CSS ***************/
+
+.half-col{
+	height: 200px;
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+	box-shadow: 0px 2px 20px #000;
+	margin-bottom: 25px;
+	
+}
+.half-col-img1{
+	background-image: url("../images/manage1.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img2{
+	background-image: url("../images/Principal.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img3{
+	background-image: url("../images/manage3.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img4{
+	background-image: url("../images/manage4.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img5{
+	background-image: url("../images/manage5.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img6{
+	background-image: url("../images/manage6.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img7{
+	background-image: url("../images/manage7.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img8{
+	background-image: url("../images/manage8.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img9{
+	background-image: url("../images/manage9.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-img10{
+	background-image: url("../images/manage10.png");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.half-col-content{
+	padding: 30px ;
+	float: right;
+	width: 60%;
+}
+.secmanager{
+	padding: 80px 0;
+}
+
+/*************** Committees CSS ***************/
+
+.committeegrid{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+.committeegrid2{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+.committeegrid3{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin-top: 2px;
+}
+.committeegrid h3{
+	color: white;
+	border-bottom: 1px solid darkorange;
+	padding: 10px 0;
+	float: left;
+	width: 100%;
+}
+.committeegrid2 h3{
+	color: white;
+	border-bottom: 1px solid darkorange;
+	padding: 10px 0;
+	float: left;
+	width: 100%;
+}
+.committeegrid3 h3{
+	color: white;
+	border-bottom: 1px solid darkorange;
+	padding: 10px 0;
+	float: left;
+	width: 100%;
+}
+.committeeimg img{
+	width: 100%;
+}
+/*************** Contact CSS***************/
+
+.enquirydiv{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.enquirydiv h2{
+	color: white;
+}
+.detailsdiv{
+	width: 50%;
+	float: left;
+}
+.detailsdiv h2{
+	color: white;
+}
+.formfield{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	border-radius: 50px;
+	border: none;
+	margin-bottom: 10px;
+	font-size: 13px;
+	
+}
+.smallp{
+	font-size: 10px;
+}
+.commentarea{
+	border-radius: 20px;
+	height: 130px;
+}
+.btn-default {
+    color: #fff8f8;
+    background-color: #097de9;
+    border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.footerlogo{
+	float: left;
+	margin-right: 2%;
+	width: 20%;
+}
+.footerabout{
+	float: left;
+	width: 25%;
+	padding: 0 20px;
+}
+.footerabout p{
+	margin-bottom: 10px;
+}
+.copyright{
+	float: left;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid white;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+/*************** FIXED HEADER ***************/
+
+header.smaller { -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out;
+	z-index: 9; background-color: #fff; box-shadow: 0px 1px 25px #0000003d; -webkit-box-shadow: 0px 1px 25px #0000003d; -moz-box-shadow: 0px 1px 25px #0000003d;
+	-ms-box-shadow: 0px 1px 25px #0000003d; position: fixed;}
+
+/**********forms**************/
+form{
+	margin:0;
+	padding:0;
+}
+*:focus {  
+	outline: none;
+}
+.fieldset{
+	width:100%;
+	height:auto;
+	padding:8px 10px;
+	background-color:none;
+	background-color:transparent;
+	display:block;
+	border:1px solid rgba(255, 255, 255, 0.2);
+	margin:0 0 10px 0;
+	color:#fff;
+	font-size:12px;
+	float:left;
+}
+.sendbutton{
+	width:auto;
+	height:auto;
+	border:0;
+	outline:0;
+	margin:0 5px 0 0;
+	float:left;
+	color:#fff;
+	font-size:20px;
+	cursor:pointer;
+	vertical-align:top;
+	padding:10px 20px;
+	text-align:center;
+	background-color:#00BFF3;
+	text-transform:uppercase;
+	}
+.sendbutton:hover{
+	background-color:#1442A2;
+	color:#fff;
+	}
+::-webkit-input-placeholder {
+   color: #000 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #000 !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000 !important;
+}
+:-ms-input-placeholder {  
+   color: #000 !important;
+}
+
+/************************************* 1180px *************************************/
+@media only screen and (max-width: 1180px) {
+.container{ width:96%;}
+}
+
+/************************************* 1024px *************************************/
+@media only screen and (max-width: 1024px) {
+.container{ width:90%;}
+}
+
+/************************************* 800px *************************************/
+@media only screen and (max-width: 800px) {
+}
+
+/************************************* 767px *************************************/
+@media only screen and (max-width: 768px) {
+}
+
+/************************************* 640px *************************************/
+@media only screen and (max-width: 640px) {
+.two-col, .three-col, .four-col, aside, summary{ width:100%; margin:0 0 25px 0; }
+}
+
+/************************************* 480px *************************************/
+@media only screen and (max-width: 480px) {
+
+}
+
+/************************************* 360px *************************************/
+@media only screen and (max-width: 360px) {
+}
+
+/************************************* 320px *************************************/
+@media only screen and (max-width: 320px) {
+
+}
